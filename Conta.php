@@ -1,5 +1,5 @@
 <?php
-class Conta {
+abstract class Conta {
     //atributos
     private $agencia;
     private $conta;
