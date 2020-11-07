@@ -6,4 +6,10 @@ class ContaSalario extends Conta{
     $novoSaldo = $this->getSaldo()+ $valor;
     $this->setSaldo($novoSaldo);
   }
+
+  function depositar($valor){
+    
+  }
+
+
 }
